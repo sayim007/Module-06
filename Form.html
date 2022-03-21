@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Style/nav.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Poppins&display=swap');
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="Form.html">Form</a></li>
+                <li><a href="Add-Audio-video/index.html">Video Website</a></li>
+                <li><a href="Table.html">Tale</a></li>
+                <li><a href="About-us.html">About us</a></li>
+            </ul>
+        </nav>
+        <h1>Form</h1>
+    </header>
+
+    <h1>Practice Form</h1>
+    <form action="">
+        <p>Name:<input type="text" name="Name" placeholder="Enter your name" id=""></p>
+        <p>Email:<input type="text" name="Email" placeholder="Enter your Email" id=""></p>
+        <fieldset>
+            <legend>Sellect One</legend>
+            <p>
+                <label for="JSC">
+                    <input type="radio" name="exam" id="JSC">JSC
+                </label>
+            </p>
+            <p>
+                <label for="SSC">
+                    <input type="radio" name="exam" id="SSC">SSC
+                </label>
+            </p>
+            <p>
+                <label for="HSC">
+                    <input type="radio" name="exam" id="HSC">HSC
+                </label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Sellect GPA</legend>
+            <p><label for="A+"><input type="checkbox" name="GPA" id="A+">A+</label></p>
+            <p><label for="A"><input type="checkbox" name="GPA" id="A">A</label></p>
+            <p><label for="A-"><input type="checkbox" name="GPA" id="A-">A-</label></p>
+        </fieldset>
+        <p>special Ability
+        <br>
+        <textarea name="special Ability" id="" cols="30" rows="10"></textarea>
+    </p>
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
